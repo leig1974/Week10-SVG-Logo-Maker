@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const {writeFile} = require ("fs/promises");
-const {Triangle, Circle, Square, Svg} = require("./lib/shapes")
+const {Triangle, Circle, Square, Svg} = require("./lib/shapes");
+const { start } = require("repl");
 const questions = [
 {
     name:'text',
@@ -38,7 +39,7 @@ shape = new Square()
     shape.setColor(answers.shapeColor) 
 
     const svg = new Svg()
-    svg.setText(answers.color, answers.text)
+    svg.setText(answers.textColor, answers.text)
     svg.setShape(shape)
     return writeFile("generatedLogo.svg", svg.render())
 }) .then(() => {
