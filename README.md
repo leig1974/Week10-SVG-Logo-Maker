@@ -1,4 +1,7 @@
-# 10 Object-oriented Programming: SVG Logo Maker
+Link to the video on google drive: 
+https://drive.google.com/file/d/1VqfElr-TL5C2yzQ4GBthIxRxWM7onYvt/view
+
+```# 10 Object-oriented Programming: SVG Logo Maker
 
 ## Your Task
 
